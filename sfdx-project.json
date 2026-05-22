@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "Branding Enrichment Package",
+      "versionDescription": "Managed package for Account and Lead branding enrichment using an external logo/favicon provider."
+    }
+  ],
+  "name": "branding-enrichment-package",
+  "namespace": "acctbrand",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "66.0",
+  "packageAliases": {
+    "Branding Enrichment Package": "0Hog50000000h1lCAA"
+  }
+}

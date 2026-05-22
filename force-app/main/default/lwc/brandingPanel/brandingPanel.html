@@ -1,0 +1,38 @@
+<template>
+
+    <lightning-card title="Branding Enrichment">
+
+        <div class="slds-p-around_medium">
+
+            <template if:true={logoUrl}>
+                  <img
+                    src={logoUrl}
+                    style="width:120px; height:auto;"
+                   />
+            </template>
+
+        <lightning-card>
+            <p class="slds-m-top_small">
+                Status: {brandingStatus}
+            </p>
+        </lightning-card>
+
+
+            <lightning-button
+                label="Enrich Branding"
+                variant="brand"
+                onclick={handleEnrich}
+                class="slds-m-top_medium">
+            </lightning-button>
+
+            <template if:true={isLoading}>
+                <lightning-spinner
+                    alternative-text="Loading">
+                </lightning-spinner>
+            </template>
+
+        </div>
+
+    </lightning-card>
+
+</template>
